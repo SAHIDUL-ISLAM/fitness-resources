@@ -317,11 +317,14 @@ footer{
     padding: 35px;
 }
 
+.hide{
+    display: none !important;
+}
 
 
 
 
-/* For Responsive  */
+/* For Responsive  430px*/
 @media screen and (max-width: 430px){
     .right-nav{
         display: none;
@@ -417,6 +420,41 @@ footer{
     flex-direction: column;
     gap: 20px;
 }
+
+}
+
+
+
+
+/* For Responsive  768px*/
+@media screen and (min-width:430px) and (max-width:768px){
+    .full-body{
+        padding: 0px 20px ;
+    }
+nav>.right-nav>ul {
+    gap: 5px;
+}
+.hero-section {
+    flex-direction: column;
+}
+nav>.right-nav>ul>li>a {
+    padding: 7px 10px;
+    font-size: 1rem;
+    font-weight: 200;
+}
+.hero-btn button {
+    padding: 19px 25px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+.habits-card {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+
 
 
 }
