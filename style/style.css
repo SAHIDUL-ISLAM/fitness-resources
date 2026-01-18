@@ -364,7 +364,9 @@ nav>.right-nav>ul>li>a:hover{
     max-width: 100%;
     height: 100%;
 }
-
+.trainer-info h3{
+    font-size: 2.25rem;
+}
 
 
 
