@@ -272,6 +272,50 @@ nav>.right-nav>ul>li>a:hover{
     height: 100%;
     width: 100%;
 }
+footer{
+    background-color: #1a1a1a;
+}
+.fitness{
+    font-size: 4.25rem;
+    font-weight: 800;
+    color: #e6533c;
+}
+.footer-section{
+    max-width: 1440px;
+    margin: 30px auto;
+    padding: 30px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-left{
+    max-width: 443px;
+}
+.footer-left p{
+    margin-top: 20px;
+    line-height: 24px;
+}
+.footer-middle>ul,.footer-right>ul{
+    list-style: none;
+}
+.footer-middle>ul>li>a,.footer-right>ul>li>a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+.footer-middle>ul>li,.footer-right>ul>li{
+    padding: 8px 0px;
+}
+.copy-rights{
+    max-width: 1440px;
+    margin: auto;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+.copy-rights hr{
+    opacity: 0.3;
+}
+.right-reserve{
+    padding: 35px;
+}
 
 
 
@@ -367,7 +411,12 @@ nav>.right-nav>ul>li>a:hover{
 .trainer-info h3{
     font-size: 2.25rem;
 }
-
+.footer-section {
+    margin: 30px auto;
+    padding: 30px 15px;
+    flex-direction: column;
+    gap: 20px;
+}
 
 
 }
