@@ -1,0 +1,371 @@
+/* font  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.full-body{
+    background-color: #000000;
+    color: white;
+}
+header{
+    max-width: 1440px;
+    margin: 50px auto;
+}
+header>nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fa-bars{
+    display: none !important;
+}
+.left-nav>em{
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: #e6533c;
+}
+nav>.right-nav>ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    list-style: none;
+}
+.right-nav{
+    border: 1px solid #323232;
+    padding: 12px 2px;
+    border-radius: 40px;
+}
+nav>.right-nav>ul>li>a{
+    text-decoration: none;
+    color: white;
+    border: none;
+    border-radius: 46px;
+    padding: 8px 20px;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+nav>.right-nav>ul>li>.active{
+    background-color:#e6533c;
+}
+nav>.right-nav>ul>li>a:hover{
+    background-color:#e6533c;
+    transition: 0.4s;
+}
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.hero-section>.hero-left{
+    max-width: 600px;
+}
+.hero-section>.hero-left>h1{
+    font-size: 4.75rem;
+}
+.hero-section>.hero-left>p{
+    margin: 28px 0px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.hero-btn{
+    display: flex;
+    gap: 14px;
+}
+.hero-btn button{
+    color: white;
+    padding: 16px 45px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    border: 1px solid white;
+    border-radius: 42px;
+    background-color: rgba(240, 248, 255, 0);
+    cursor: pointer;
+}
+.hero-btn .btn-active{
+    border: none;
+    background-color: #e6533c;
+}
+.hero-right{
+    position: relative;
+}
+.tooltip{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #303030cf;
+    border-radius: 12px;
+    padding: 20px 23px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.tooltip>p{
+    background-color: #e6533c;
+    padding: 20px;
+    border-radius: 50%;
+}
+.tooltip2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #303030cf;
+    border-radius: 12px;
+    padding: 20px 23px;
+    margin-top: 170px;
+}
+.main-container{
+    max-width: 1440px;
+    margin: 50px auto;
+    padding: 0 15px;
+}
+.habits-section{
+    text-align: center;
+}
+.habits-section h1{
+    font-size: 3rem;
+}
+.habits-section p{
+    margin-top: 14px;
+    margin-bottom: 58px;
+}
+.habits-card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 40px;
+}
+.habits-card-main img{
+    border-radius: 50%;
+    border: 3px solid #1a1a1a;
+}
+.gray-text{
+        color: rgba(255, 255, 255, 0.5);
+}
+.joining-single-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #222222;
+    border-radius: 18px;
+    padding: 40px 54px;
+    gap: 165px;
+}
+.left-joining-card{
+    max-width: 443px;
+}
+.left-joining-card h1{
+    font-size: 3rem;
+}
+.left-joining-card p{
+    margin-top: 14px;
+    margin-bottom: 34px;
+    line-height: 24px;
+}
+.left-joining-card button{
+    color: white;
+    padding: 16px 45px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    border-radius: 42px;
+    cursor: pointer;
+    background-color: #e6533c;
+    border: none;
+}
+.right-joining-card img{
+    max-width: 366px;
+    border-radius: 18px;
+}
+.training-section{
+    margin-top: 100px;
+}
+.training-section h1{
+    color: white;
+    font-size: 3rem;
+}
+.training-section p{
+    margin: 15px 0px;
+}
+.training-img>img{
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: multiply;
+}
+.training-group-img{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2, 200px);
+    
+}
+.exercise2{
+    grid-column: span 2;
+}
+.exercise{
+    grid-column: span 1;
+}
+.training-group-img>.training-img{
+    position: relative;
+}
+.training-img p{
+    position: absolute;
+    z-index: 33;
+}
+.excer1{
+    bottom:0px;
+}
+.excer2{
+    top: 0px;
+}
+.excer3{
+    bottom: 0px;
+}
+.excer4{
+    top: 0px;
+}
+.excer5{
+    bottom: 0px;
+}
+.excer6{
+    bottom: 0px;
+}
+.team-section{
+    margin-top: 100px;
+}
+.team-content{
+    text-align: center;
+    max-width: 671px;
+    margin: auto;
+}
+.team-content h1{
+    font-size: 3rem;
+    line-height: 120%;
+}
+.team-content p{
+    margin-top: 20px;
+}
+.trainer-img{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 20px;
+    margin-top: 50px;
+}
+.trainer img{
+    max-width: 100%;
+    height: 100%;
+    border-radius: 18px;
+}
+.trainer{
+    position: relative;
+    display: inline;
+}
+.trainer-info{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    z-index: 22;
+}
+.trainer5{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+/* For Responsive  */
+@media screen and (max-width: 430px){
+    .right-nav{
+        display: none;
+    }
+    .fa-bars{
+        display: block !important;
+    }
+    header {
+        margin: 30px auto;
+        padding: 0 15px;
+    }
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-section > .hero-left > h1 {
+        font-size: 2.25rem;
+    }
+    .hero-btn button {
+        font-size: 1rem;
+        padding: 16px 20px;
+        align-items: center;
+    }
+    .hero-btn-section{
+        display: flex;
+        justify-content: center;
+    }
+    .habits-section h1 {
+        font-size: 2.25rem;
+    }
+    .habits-card {
+        grid-template-columns: repeat(1,1fr);
+        gap: 1px;
+    }
+    .habits-section p {
+        padding: 0 10px;
+    }
+    .joining-single-card {
+        justify-content: center;
+        padding: 20px 24px;
+        gap: 30px;
+        flex-direction: column;
+    }
+.joining-single-card h1{
+    font-size: 2.25rem;
+}
+.left-joining-card{
+    text-align: center;
+}
+.right-joining-card img {
+        max-width: 100%;
+    }
+.exercise3,.exercise6{
+    display: none;
+}
+.training-group-img{
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+.exercise2{
+    grid-column: span 1;
+}
+.exercise4{
+    grid-column: span 1;
+}
+.training-section h1 {
+  font-size: 2.25rem;
+}
+.training-section {
+  margin-top: 50px;
+}
+.trainer-img {
+    grid-template-columns: repeat(1, 1fr);
+
+}
+.team-section {
+    margin-top: 50px;
+}
+.trainer .trainer-info {
+    bottom: 10px;
+    left: 10px;
+}
+.trainer img {
+    max-width: 100%;
+    height: 100%;
+}
+
+
+
+
+}
